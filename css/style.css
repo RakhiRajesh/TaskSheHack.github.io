@@ -1,0 +1,208 @@
+/* CSS Document */
+body{
+	margin: 0;
+	
+}
+.navig{
+	width: 100%;
+	height:100px;
+	//background-color: rgba(0,0,0,0.2);
+        background: black;
+	position:fixed;
+	top:0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+        
+}
+
+.logo{
+	height: 100px;
+	background-size: 100%;
+}
+
+nav ul li{
+	font-family: cooper;
+	font-weight: 500;
+	font-size: 17px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav ul li a:link{
+	color: #ffffff;
+	text-decoration: none;
+}
+nav ul li a:visited{
+	color: #ffffff;
+	text-decoration: none;
+}
+nav ul li a:hover{
+    color: #00ffff;
+}
+
+.register{
+    background: #ff9900;
+    border-radius: 5px;
+    padding: 10%;
+    
+ }
+.register:hover{
+    background: red;
+    color: #ffffff;
+    transition:ease-in-out 2s;
+}
+
+.banner{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-top: 5%;	
+        background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+}
+
+
+.dwnld{
+	width: 220px;
+	height: 85px;
+	position: fixed;
+	border-radius: 0 0 5px 5px;
+	top: 0;
+	right: 10px;
+	z-index: 10;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image:linear-gradient(#906, #C36);
+}
+
+.sticky {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 300px;
+    z-index: 9998;
+}
+
+.outer-section{
+    background: #ccffff;
+    padding: 3%;
+    
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  
+}
+.section-head{
+    font-family: Imprint MT Shadow;
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.flex-container > div {
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 28%;
+  margin: 10px;
+  text-align: justify;
+  line-height: 25px;
+  font-size: 17px;
+  box-shadow: 2px 3px 8px black;
+  
+}
+
+.section-image{
+     border-radius: 20px;
+    width: 355px;
+    height: 270px;
+    overflow: hidden;
+    
+   
+}
+.image{
+    width: 355px;
+    height: 270px;
+    transition-duration: 2s;
+}
+.image1{
+     background: url('../images/images1.png') no-repeat;
+     background-size: 100% 100%;
+}
+.image2{
+     background: url('../images/section_image2.jpg') no-repeat;
+     background-size: 100% 100%;
+}
+.image3{
+     background: url('../images/section_image3.jpeg') no-repeat;
+     background-size: 100% 100%;
+}
+.image:hover{
+    width: 355px;
+    height: 270px;
+    transform: scale(1.2);
+    
+}
+article{
+    padding: 4%;
+    text-indent: 100px;
+    
+}
+article h1{
+    color:#00cccc;
+}
+.form-innerdiv{
+    display: flex;
+   
+    
+}
+.login-form{
+    flex-grow: 8;
+    width:50%;
+    padding: 3%;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 200px;
+    background: white;
+    box-shadow: 3px 4px 10px black;
+    
+}
+.login-form input{
+    padding: 3%;
+    border:none;
+    margin-bottom: 10px;
+    width:90%;
+    border-bottom: 1px solid black;
+}
+.login-form h1{
+    padding-bottom: 3%;
+    text-align: center;
+}
+.login-form button{
+    padding: 3%;
+    margin: 3px;
+    width:95%;
+    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+    border: none;
+    color:white;
+    margin-top: 10px;
+}
+footer{
+    width: 100%;
+	padding-top: 1px;
+    height: 110px;
+    background: black;
+	color:white;
+	text-align:center;
+	margin-top: -.5px;
+}
